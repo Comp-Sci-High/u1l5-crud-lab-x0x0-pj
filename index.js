@@ -14,9 +14,10 @@ playlist[2]= 'Test'
 
 // Task 4: Delete the "Test" element 
 
-delete playlist[2]
+playlist.pop
+
 // Console log the array
-console.log(fruits)
+console.log(playlist)
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
@@ -41,15 +42,24 @@ delete song.artist
 // NESTED ARRAYS & OBJECTS SECTION
 // Task 8: Create an object called 'album' with properties song's album's 'name', 'year', and 'songs' (leave 'songs' as empty array for now)
 
+let album = {
+    name: "",
+    year: "",
+    songs: []
+}
 
 // Task 9: Add your song object (task 5) to the empty songs array in the album object
 
+album.songs[0] = song.listenedTo
 
 // Console log the length of the album's songs array to confirm it worked
+
+console.log(album.songs[length])
 
 // Task 10: Update the title of the song to be all lowercase. 
 // Console log the album object to check your change
 
+song.title = "misunderstood"
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
