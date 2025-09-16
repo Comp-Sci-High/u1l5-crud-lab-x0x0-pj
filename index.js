@@ -1,17 +1,22 @@
 // ARRAY SECTION
 // Task 1: Create an empty array called playlist
-
+let playlist = []
 
 // Task 2: Push 3 songs to the playlist array
+playlist.push("In My Head")
+playlist.push("Agust D")
+playlist.push("Rich Man")
+
 
 
 // Task 3: Update the value of the last element to be "Test"
-
+playlist[2]= 'Test'
 
 // Task 4: Delete the "Test" element 
 
+delete playlist[2]
 // Console log the array
-
+console.log(fruits)
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
