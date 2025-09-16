@@ -50,11 +50,11 @@ let album = {
 
 // Task 9: Add your song object (task 5) to the empty songs array in the album object
 
-album.songs[0] = song.listenedTo
+album.songs.push(song)
 
 // Console log the length of the album's songs array to confirm it worked
 
-console.log(album.songs[length])
+console.log(album.songs.length)
 
 // Task 10: Update the title of the song to be all lowercase. 
 // Console log the album object to check your change
